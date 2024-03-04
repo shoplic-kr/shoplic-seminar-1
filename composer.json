@@ -1,0 +1,16 @@
+{
+  "name": "changwoo/shoplic-senimar",
+  "type": "wordpress-plugin",
+  "minimum-stability": "stable",
+  "autoload": {
+    "files": [
+      "includes/Functions.php"
+    ],
+    "psr-4": {
+      "Changwoo\\ShoplicSeminar\\": "includes/"
+    }
+  },
+  "require": {
+    "php": ">=8.2"
+  }
+}
